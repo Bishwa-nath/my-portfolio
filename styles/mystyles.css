@@ -50,7 +50,7 @@ body {
 
 .text-animation {
     animation: enlarge-image 1s linear;
-    font-size: 40px;
+    font-size: 26px;
     color: white;
 }
 
@@ -65,12 +65,12 @@ body {
 
 .text-rainbow-animation {
     font-family:arial black;
-    font-size:40px;
+    font-size:30px;
     background-image: 
       linear-gradient(to right, red, green, blue, red); 
     -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;  
-    animation: rainbow-animation 30s linear infinite;
+    animation: rainbow-animation 50s linear infinite;
     margin-top: 100px;
   }
   
