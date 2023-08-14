@@ -4,6 +4,7 @@ $(function(){
         $("#education").hide();
         $("#skills").hide();
         $("#contacts").hide();
+        $("#additionals").hide();
     }, 0);
     setTimeout(() => {
         $(".text-rainbow-animation").hide();
@@ -38,6 +39,7 @@ $(function(){
         $("#intro").hide(); 
         $("#skills").hide();
         $("#contacts").hide();
+        $("#additionals").hide();
         $("#education").show();
     });
 
@@ -45,6 +47,7 @@ $(function(){
         $("#education").hide();
         $("#contacts").hide();
         $("#skills").hide();
+        $("#additionals").hide();
         $("#intro").show();
     });
 
@@ -52,13 +55,22 @@ $(function(){
         $("#education").hide();
         $("#intro").hide();
         $("#contacts").hide();
+        $("#additionals").hide();
         $("#skills").show();
     });
     $("#contact").click(function(){
         $("#education").hide();
         $("#intro").hide();
         $("#skills").hide();
+        $("#additionals").hide();
         $("#contacts").show();
+    });
+    $("#additional").click(function(){
+        $("#education").hide();
+        $("#intro").hide();
+        $("#skills").hide();
+        $("#contacts").hide();
+        $("#additionals").show();
     });
 
     const lc = document.getElementById("lc");
