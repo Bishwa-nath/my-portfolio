@@ -103,11 +103,7 @@ a {
     transition: transform .2s;
 }
 
-#skills > div{
-    background-image: linear-gradient(to right, rgba(200, 200, 200, .1), rgba(20, 20, 20, .3));
-}
-
-#additionals > div{
+#skills #additionals > div{
     background-image: linear-gradient(to right, rgba(200, 200, 200, .1), rgba(20, 20, 20, .3));
 }
 

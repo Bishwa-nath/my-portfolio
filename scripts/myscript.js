@@ -103,8 +103,5 @@ $(function(){
     window.open("https://www.hackerrank.com/Bishwanath?hr_r=1", "_blank");
     });
 
-    
-
-    
 });
 
